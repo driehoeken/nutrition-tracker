@@ -1,0 +1,22 @@
+.menu-button {
+    display: block;
+    margin: 20px 0 20px auto;
+    color: #ffffff;
+    background: linear-gradient(to right, transparent 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    width: 80%;
+    border-radius: 15px 0 0 15px;
+    text-align: left;
+    padding: 5px 15px 5px 15px;
+    font-size: 25px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    border: none;
+}
+.menu-button:hover {
+    background-position: right bottom;
+    color: black;
+    cursor: pointer;
+}
