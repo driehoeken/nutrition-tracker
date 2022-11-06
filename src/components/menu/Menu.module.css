@@ -1,8 +1,6 @@
 .menu {
-    width: 230px;
+    width: 260px;
     height: 100vh;
     background: linear-gradient(to left, #2c5ced, #4870e9);
-}
-.menu button {
-    display: block;
+    z-index: 1;
 }

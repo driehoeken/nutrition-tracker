@@ -3,7 +3,8 @@ import styles from "./MenuButton.module.css";
 const MenuButton = (props) => {
     return (
         <button type="button" className={styles["menu-button"]}>
-            <div className={styles["menu-button__inside"]}>{props.name}</div>
+            <i className={`fa fa-${props.icon}`} aria-hidden="true"></i>{" "}
+            <span className={styles.name}> {props.name} </span>
         </button>
     );
 };

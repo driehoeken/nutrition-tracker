@@ -4,10 +4,11 @@ import MenuButton from "./MenuButton";
 const Menu = () => {
     return (
         <div className={styles.menu}>
-            <MenuButton name="Dashboard" />
-            <MenuButton name="Calendar" />
-            <MenuButton name="Statistics" />
-            <MenuButton name="Calculator" />
+            <MenuButton name="Dashboard" icon="home" />
+            <MenuButton name="Calendar" icon="calendar" />
+            <MenuButton name="Statistics" icon="bar-chart " />
+            <MenuButton name="Calculator" icon="calculator" />
+            <MenuButton name="Settings" icon="cog" />
         </div>
     );
 };
