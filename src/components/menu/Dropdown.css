@@ -9,7 +9,7 @@
     top: 80px;
     left: 127.5px;
     transition: all 0.2s ease-out;
-    transform: translateY(-10px);
+    transform: translateY(0);
     display: block;
 }
 .dropdown.hidden {
@@ -17,8 +17,5 @@
 }
 .dropdown.visually-hidden {
     opacity: 0;
-}
-.dropdown.active {
-    opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-10px);
 }

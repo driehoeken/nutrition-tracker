@@ -17,9 +17,7 @@ const Nav = () => {
                     dropdownEl.classList.add("hidden");
                 },
                 {
-                    capture: false,
                     once: true,
-                    passive: false,
                 }
             );
         }
