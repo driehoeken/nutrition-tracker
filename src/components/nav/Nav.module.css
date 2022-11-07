@@ -9,12 +9,15 @@ nav {
     justify-content: right;
     gap: 10px;
 }
-
+nav > button {
+    border: none;
+}
 .nav-user-button,
 .nav-notification {
     width: 35px;
     height: 35px;
     border-radius: 50%;
+    cursor: pointer;
 }
 .nav-notification {
     background-color: rgb(223, 223, 223);
@@ -32,4 +35,10 @@ nav {
 }
 .nav-user-menu {
     width: 35px;
+}
+.nav-notification:hover {
+    background-color: rgb(183, 183, 183);
+}
+.nav-user-button:hover {
+    background-color: #0e40d6;
 }
