@@ -10,18 +10,22 @@
     text-align: left;
     padding: 5px 15px 5px 15px;
     font-size: 25px;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    transition: all 0.2s linear;
     border: none;
+}
+.menu-button,
+.menu-button > i,
+.menu-button > .name {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
 .menu-button:hover {
     background-position: right bottom;
     cursor: pointer;
 }
-.menu-button:hover i {
+.menu-button:hover > i {
     color: orange;
 }
-.menu-button:hover .name {
+.menu-button:hover > .name {
     color: black;
 }
