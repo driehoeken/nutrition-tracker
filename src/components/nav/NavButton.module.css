@@ -1,0 +1,28 @@
+.nav-button-wrap {
+    position: relative;
+}
+.nav-button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+.nav-notification {
+    background-color: rgb(223, 223, 223);
+}
+.nav-notification i {
+    color: rgb(94, 94, 94);
+}
+.nav-user-button {
+    background-color: #2c5ced;
+}
+.nav-user-button i {
+    color: #fff;
+}
+.nav-notification:hover {
+    background-color: rgb(183, 183, 183);
+}
+.nav-user-button:hover {
+    background-color: #0e40d6;
+}
